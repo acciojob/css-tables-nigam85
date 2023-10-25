@@ -1,1 +1,26 @@
-/*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.styled-table {
+/*     border-collapse: collapse; */
+    width: 50%;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+.styled-table tbody tr:nth-child(odd) {
+    background-color:  #ffffff;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color:  #f2f2f2;  
+}
